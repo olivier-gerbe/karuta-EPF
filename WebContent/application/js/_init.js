@@ -9,6 +9,7 @@ var bckname = '';
 var serverBCK = "../../../karuta-backend"+bckname; // fileserver backend
 var serverBCK_API = "../../../karuta-backend"+bckname+"/rest/api";
 var cas_url = "";
+var openid_url = "https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize";
 //---------------------------------
 var serverBCK_REG = "";  // report registration server
 var serverBCK_REP = ""; // report server
@@ -27,6 +28,7 @@ var maxfilesizeupload = "32"; //Mo
 var technical_support = ""; // email of technical support
 var demo = false;
 var karuta_create_account = false;
+var karuta_forgot_password = false;
 //--------- NAVBAR BRAND ------------------ logo 126 x 34
 var navbar_title = {};
 navbar_title["fr"] = "<img src='"+karuta_url+"/application/img/karuta-navbar.jpg'/>";

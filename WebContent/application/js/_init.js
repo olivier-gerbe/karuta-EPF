@@ -9,7 +9,7 @@ var bckname = '';
 var serverBCK = "../../../karuta-backend"+bckname; // fileserver backend
 var serverBCK_API = "../../../karuta-backend"+bckname+"/rest/api";
 var cas_url = "";
-var openid_url = "https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize";
+var openid_url = "https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize?client_id=bc3b061d-8ed3-47dd-a440-c03413eb8c02&scope=openid%20profile%20offline_access%20https%3A%2F%2Fgraph.microsoft.com%2Fuser.read";
 //---------------------------------
 var serverBCK_REG = "";  // report registration server
 var serverBCK_REP = ""; // report server

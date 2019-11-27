@@ -1,3 +1,4 @@
+
 body{
 	background: url(../img/login-background.jpg) no-repeat;
 }
@@ -28,8 +29,8 @@ margin-top: -9px!important;
 /* ----------------------- */
 
 .form-signin {
-	max-width: 400px;
-	padding: 19px 29px 29px;
+	max-width: 350x;
+	padding: 9px 29px 29px;
 	margin-top: 20px;
 	margin-left: auto;
 	margin-right: auto;
@@ -48,8 +49,8 @@ margin-top: -9px!important;
 .form-signin input[type="password"] {
   font-size: 16px;
   height: auto;
-  margin-bottom: 15px;
-  padding: 7px 9px;
+  margin-bottom: 8px;
+  padding: 6px 10px;
 }
 
 .button-login {
@@ -79,17 +80,17 @@ margin-top: -9px!important;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 400px;
-	padding-top: 19px ;
-	padding-bottom: 19px ;
-	padding-left: 29px ;
-	padding-right: 29px ;
+	padding-top: 1px ;
+	padding-bottom: 1px ;
+	padding-left: 1px ;
+	padding-right: 1px ;
 	background-color: rgb(245, 245, 245); 
-	border-left: 1px solid #e5e5e5;
-	border-right: 1px solid #e5e5e5;
-	border-top: 1px solid #e5e5e5;
-	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
-	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
-	box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	border-left: 0px solid #ffffff;
+	border-right: 0px solid #ffffff;
+	border-top: 0px solid #ffffff;
+	-webkit-box-shadow: 0 0px 0px rgba(0,0,0,.05);
+	-moz-box-shadow: 0 0px 0px rgba(0,0,0,.05);
+	box-shadow: 0 0px 0px rgba(0,0,0,.05);
 	text-align:center;
 }
 
@@ -110,16 +111,16 @@ margin-top: -9px!important;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 400px;
-	padding-bottom: 19px ;
-	padding-left: 29px ;
-	padding-right: 29px ;
-	background-color: #da0813; 
-	border-left: 1px solid #da0813;
-	border-right: 1px solid #da0813;
-	border-bottom: 1px solid #da0813;
-	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
-	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
-	box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	padding-bottom: 0px ;
+	padding-left: 0px ;
+	padding-right: 0px ;
+	background-color: #ffffff; 
+	border-left: 0px solid #ffffff;
+	border-right: 0px solid #ffffff;
+	border-bottom: 0px solid #ffffff;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
 	text-align:center;
 }
 
@@ -148,4 +149,251 @@ margin-top: -9px!important;
 }
 
 
+/* from karuta.less */
+
+.button:hover {
+	box-shadow: 0px 0px 1px #E7ECEF inset;
+	background-color: #E7ECEF;
+	
+}
+
+.list-page,
+.list-portfoliosgroups,
+.list-usersgroups,
+.list-users,
+.exec_report,
+.exec_batch{
+	background-color:transparent;
+}
+
+.navbar-default{
+	background-color:transparent;
+	border-color:@navigation-bar-border-color;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+	background-color:transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color:;
+}
+
+.welcome-line,
+.row-node-asmRoot,
+.row-node-asmStructure,
+.row-node-asmUnit {
+	background-color:#fff;
+}
+
+.navbar-default{
+	font-size: 12px;
+}
+
+.asmRoot .row-node-asmStructure .node-label,
+.asmRoot .row-node-asmUnit .node-label,
+.asmStructure .asmStructure .row-node-asmStructure .node-label,
+.asmStructure .row-node-asmUnit  .node-label{
+	font-size:18px;
+}
+
+.row-node-asmRoot .title-subline,
+.row-node-asmStructure .title-subline,
+.row-node-asmUnit .title-subline {
+	margin-top:0px;
+	width:1000px;
+}
+
+#usersgroups .row,
+#list .row,
+#bin .row,
+#selectform-projects .row,
+#main-user  {
+	margin-top:2px;
+	color:#3b3b3b;
+}
+
+
+#projects-label,
+#portfolios-label,
+#bin-label,
+#active-users,
+#temporary-users,
+#portfoliosgroups-label,
+#usersgroups-label,
+#empty-users,
+#inactive-users {
+	color:#2b6185;
+}
+
+#projects-nb {
+	color:#ffffff;
+}
+
+#sub-bar .welcome-title {
+    color: none;
+    font-size: none;
+    text-align: none;
+    width: none;
+}
+
+#sub-bar .welcome-line {
+    border-bottom: none;
+    margin-left: none;
+    margin-right: none;
+    width: none;
+}
+
+#main-user .item:hover {
+	background-color:#C1C1C1;
+}
+
+#main-portfoliosgroup .btn,
+#main-usersgroup .btn,
+#main-user .btn,
+#main-list .btn,
+#list input[type='checkbox'] {
+	background-color:#747171;
+	color:@list-button-color;
+}
+
+#usersgroups .usersgroup-users,
+.usersgroup,
+.project,
+.portfolios-not-in-project,
+.portfoliosgroup {
+	margin-top:2px;
+	padding:2px;
+	background-color:#B5B5B5;
+}
+
+.portfoliosgroup-content,
+.usersgroup-content,
+.project-content {
+	margin-top:10px;
+	padding-top:10px;
+	border-top:1px solid #828282;
+}
+
+#projects .row:hover .col-md-5,
+#projects .row:hover .col-md-5 a,
+#projects .row:hover .col-md-4,
+#projects .row:hover .col-md-4 a,
+#projects .row:hover .col-md-3,
+#projects .row:hover .col-md-2,
+#projects .row:hover .col-md-1 {
+	background-color:#828282;
+}
+
+#portfolios .row:hover .col-md-5,
+#portfolios .row:hover .col-md-5 a,
+#portfolios .row:hover .col-md-4,
+#portfolios .row:hover .col-md-4 a,
+#portfolios .row:hover .col-md-3,
+#portfolios .row:hover .col-md-2,
+#portfolios .row:hover .col-md-1,
+#bin .row:hover .col-md-5,
+#bin .row:hover .col-md-5 a,
+#bin .row:hover .col-md-4,
+#bin .row:hover .col-md-4 a,
+#bin .row:hover .col-md-3,
+#bin .row:hover .col-md-2,
+#bin .row:hover .col-md-1 {
+	background-color:#828282;
+}
+
+#portfoliosgroups .row:hover {
+	background-color:#828282;
+}
+
+#portfoliosgroups .row-label:hover {
+	background-color:#828282;
+}
+
+#usersgroups .item:hover {
+	background-color:#828282;
+}
+
+#sidebar {
+    background-color: #afaeae;
+    border-radius: 10px;
+/*    margin: 8px; */
+}
+
+#sidebar-content {
+	border-radius: 10px;
+  }
+
+.selected a {
+	color: #363636!important;
+	font-weight:bold;
+}
+
+#welcome-image {
+	background: url("../../application/img/list-image.jpg") no-repeat;
+	padding-top:0px;
+	width: 110%;
+    height: 150px;
+	margin-left: 0px;
+}
+
+.welcome-box {
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+	min-width:200px;
+	padding:3px;
+	border:none;
+}
+
+.welcome-subbox {
+	width:0%;
+	height:0%;
+	background-color:transparent;
+	padding:0px;
+	opacity: 0;
+}
+
+.asmStructure .title {
+	font-size: 26px;
+	line-height: 50px;
+}
+
+.asmUnit .title {
+	font-size: 26px;
+	line-height: 50px;
+}
+
+.row-node .node-label{
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.text-button {
+	font-weight:500;
+	margin-top: 12px;
+}
+
+.number_of_projects_portfolios {
+	margin-left:5px;
+	color: #ffffff;
+	background-color:#666666;
+}
+
+.portfolios-nb,
+.projects-nb {
+	background-color:#666666;
+}
+
+
+#saved-window {
+	width:100%;
+	background-color:white;
+	position:fixed;
+	top:0;
+	left:0;
+	height: 5px;
+	z-index:2000;
+}
 

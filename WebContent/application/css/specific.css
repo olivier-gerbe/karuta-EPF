@@ -355,16 +355,6 @@ margin-top: -9px!important;
 	opacity: 0;
 }
 
-.asmStructure .title {
-	font-size: 26px;
-	line-height: 50px;
-}
-
-.asmUnit .title {
-	font-size: 26px;
-	line-height: 50px;
-}
-
 .row-node .node-label{
 	padding-left:0px;
 	padding-right:0px;

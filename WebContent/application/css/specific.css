@@ -3,6 +3,11 @@ body{
 	background: url(../img/login-background.jpg) no-repeat;
 }
 
+.row-node-asmUnit .buttons,
+.row-node-asmStructure .buttons,
+.row-node-asmRoot .buttons {
+	margin-top:-10px;
+}
 
 .navbar-inner {	
    background-image: -moz-linear-gradient(top, #fff, #f2f2f2);
